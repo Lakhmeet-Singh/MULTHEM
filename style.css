@@ -24,7 +24,7 @@ nav {
 }
 
 .partners {
-    height: 395px;
+    height: 400px;
     width: 100%;
     background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)),
         url(/images/partners.jpg);
@@ -80,3 +80,19 @@ hr {
     justify-content: center;
     align-items: center;
 }
+.container p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.h2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
