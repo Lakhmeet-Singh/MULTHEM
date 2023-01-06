@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+nav {
+    margin-bottom: 1cm;
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+    color: black;
+    padding-left: 50px;
+}
+
+.navbar-nav a:hover {
+    color: #0990A7;
+}
+
+.navbar-light .navbar-toggles-icon {
+    background-image: url();
+
+}
+
+.partners {
+    height: 395px;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)),
+        url(/images/partners.jpg);
+    background-size: 100%;
+    background-position: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 35px;
+    color: white;
+}
+
+hr {
+    width: 20%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.coordinator{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}
+.container h2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
