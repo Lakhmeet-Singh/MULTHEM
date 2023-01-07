@@ -37,7 +37,7 @@ color: #0990A7;
 
 
 .header-row {
-height: 500px;
+height: 450px;
 width: 100%;
 background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(/Images/Picture-1.png);  
 background-size: 100%;
@@ -106,7 +106,7 @@ transform: translate(-50%, 280%);
 }
 
 
-/* Boxes */
+/* Cards */
 
 
 .card-boxes{
