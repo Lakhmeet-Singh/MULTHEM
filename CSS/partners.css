@@ -59,6 +59,18 @@ nav{
     color: white;
 }
 
+.text-center hr{
+    width: 40%;
+    height: 5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:white;
+    color: white;
+    }
+
 
 /* PARTNERS */
 
@@ -110,6 +122,14 @@ nav{
     border: 0 none;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 30px;
+    background-color:black;
+    color: black;
+}
+.section .end2{
+    width:90%;
+    height: 2px;
+    border: 0 none;
     margin-top: 30px;
     background-color:black;
     color: black;
