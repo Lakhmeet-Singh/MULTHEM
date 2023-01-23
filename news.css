@@ -50,7 +50,7 @@ nav {
 .news {
     height:400px;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(/images/news.png);
+    background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(news.png);
     background-size: 100%;
     background-position: cover;
     position: absolute;

@@ -41,7 +41,7 @@ nav{
 .header-row {
   height: 450px;
   width: 100%;
-  background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(/Images/about\ us.png);  
+  background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(about\ us.png);  
   background-size: 100%;
   background-position: cover;
   position: absolute;
