@@ -91,6 +91,7 @@ nav{
     padding-bottom: 50px;
     font-weight: bold;
     color: black;
+
 }
 .section img{
     align-items: center;
@@ -127,7 +128,7 @@ nav{
     color: black;
 }
 .section .end2{
-    width:90%;
+    width:300%;
     height: 2px;
     border: 0 none;
     margin-top: 30px;
@@ -147,7 +148,7 @@ nav{
 }
 
 .partner{
-    justify-content: center;
+    justify-content: left;
     top: 170%;
 }
 
@@ -196,6 +197,4 @@ nav{
 .footer-image img{
     padding-left: 30px;
 }
-
-
 
