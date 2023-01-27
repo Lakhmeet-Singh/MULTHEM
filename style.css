@@ -83,7 +83,6 @@ background-color:white;
 color: white;
 }
 
-
 /* Heading */
 
 
@@ -156,6 +155,9 @@ transform: translate(-50%, 280%);
     font-size: 18px;
     
 }
+.Social{
+    text-align: center;
+}
 
 .Social i{
     font-size: 22px;
@@ -170,3 +172,43 @@ transform: translate(-50%, 280%);
    padding-left: 30px;
 }
 
+@media (max-width: 1024px) {
+    #Header .header-row h3 {
+      font-size: 40px;
+    }
+    #Header .text-center h1{
+        font-size: 25px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+  }
+@media (max-width: 768px) {
+    #Header .header-row h3 {
+      font-size: 30px;
+    }
+    #Header .text-center h1{
+        font-size: 30px;
+    }
+    #Heading .text-center h5{
+        font-size: 18px;
+    }
+    
+    #Heading .text-center h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .Social{
+        text-align:left;
+    }
+    
+  }
