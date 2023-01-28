@@ -172,7 +172,7 @@ transform: translate(-50%, 280%);
    padding-left: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
     #Header .header-row h3 {
       font-size: 40px;
     }

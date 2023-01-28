@@ -32,7 +32,7 @@ nav{
     text-align: right;
 }
 
-.partners {
+.header-row {
     height: 400px;
     width: 100%;
     background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)),
@@ -208,8 +208,41 @@ nav{
     padding-left: 30px;
 }
 
-@media (max-width: 768px) {
-    #Header .partners h1{
+@media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
+    #Header .header-row h1{
+        font-size: 40px;
+    }
+    .section{
+        top: 120%;
+    }
+    .participants1{
+        top: 240%;
+    }
+    
+     .participants2{
+        top: 131%;
+    }
+    
+    .participants3{
+        top: 138%;
+    }
+    .participants2 img, 
+    .participants3 img,
+    .parter-img{
+        padding-top: 50px;
+    }
+    .footer{
+        margin-top: 5000px;
+        
+    }
+    .Social{
+        text-align:left;
+    }
+  }
+
+    @media (max-width: 768px) {   /* Phone  devices */
+  
+    #Header .header-row h1{
         font-size: 30px;
     }
     .section{
@@ -238,5 +271,5 @@ nav{
     .Social{
         text-align:left;
     }
-    
-  }
+ }
+ 
