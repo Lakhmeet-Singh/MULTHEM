@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html body {
+height: 100%;
+font-family: 'Roboto', sans-serif;
+background-color: white;
+}
+
+nav{
+margin-bottom: 0.3cm;
+background-color: white;
+}
+
+.navbar-nav a{
+font-weight: bold;
+color: black;
+padding-left: 50px;
+}
+
+.navbar-nav a:hover{
+color: #0990A7;
+}
+
+.collapse-text a{
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+/* header */
+
+
+.header-row {
+height: 450px;
+width: 100%;
+background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(contact\ background.png);  
+background-size: 100%;
+background-position: cover;
+position: absolute;
+}
+
+#Header .text-center {
+width: 100%;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#Header .text-center h1 {
+font-size: 55px;
+font-weight: bold;
+color: white;
+}
+
+#Header .text-center hr{
+  width: 15%;
+  height: 5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:white;
+  color: white;
+  }
+
+
+.main-image {
+  background: url("./contact-background-resized.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main-image {
+    background: url("./contact-background-resized.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+  }
+}
+
+/* For slightly bigger screens */
+@media only screen and (max-width: 1000px) {
+  .main-image {
+    background: url("./contact-background-resized.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/* For tablets and smaller devices */
+@media only screen and (max-width: 710px) {
+  .main-image {
+    background: url("./contact-background-resized.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+  }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 350px) {
+  .main-image {
+    background: url("./contact-background-resized.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+  }
+}
+
+.background-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-card {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+}
+.contact-us__title {
+  margin-bottom: 0rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-us__description {
+  margin-top: 0.5rem;
+}
+
+.main-section {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.submittion-card {
+  flex-grow: 1;
+}
+
+.first-input__items,
+.second-input__items {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+
+.input__item {
+  background: lightblue;
+  border-style: none;
+  margin: 1.5rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.message-box__items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+.message-box__items .input__item {
+  width: 500px;
+  height: 150px;
+  flex-grow: 1;
+}
+
+.button-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+}
+
+.button-items .submit-btn {
+  background: lightblue;
+  border-style: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.button-items .submit-btn:hover,
+.button-items .submit-btn:active {
+  background: #0990A7;
+  color: white;
+}
+
+.contact-details {
+  margin: 2rem;
+  padding-top: 50px;
+}
+
+.contact-details__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details__title {
+  color: darkcyan;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.contact-details__email,
+.email,
+.contact-details__phone,
+.contact-details__phone--number {
+  /* padding-bottom: 10px; */
+  
+  font-weight: bold;
+  text-align: center;
+}
+.contact-details__email{
+  padding-bottom: 10px;
+}
+.contact-details__phone{
+  padding-top: 40px;
+}
+
+.contact-details__email i,
+.contact-details__phone i {
+  color:#0990A7;
+  font-size: 20px;
+  
+}
+.contact-details__items  a{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+}
+
+/* Footer */
+
+
+.footer{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  background-color: #005f70;
+}
+.footer-container{
+  color: white;
+}
+
+.Links p a{
+  text-decoration: none;
+  color: white;
+}
+
+.Links p a:hover{
+  color: #0990A7;
+}
+
+.Contact i{
+  font-size: 18px;
+  
+}
+
+.Social i{
+  font-size: 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Social i:hover{
+  color: #0990A7;
+}
+
+.footer-image img{
+ padding-left: 30px;
+} 
+
