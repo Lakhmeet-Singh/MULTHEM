@@ -74,10 +74,12 @@ color: white;
 
 .main-image {
   background: url("./contact-background-resized.png");
-  background-size: contain;
+  height: 450px;
+  width: 100%;  
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
-  width: 100%;
+  position: absolute;
 }
 
 @media only screen and (max-width: 1250px) {
