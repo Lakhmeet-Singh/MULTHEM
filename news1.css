@@ -59,12 +59,13 @@ nav {
  
 /* News content */
 .news_1{
-    background-color: #979390;
+    background-color: #ffffff;
     padding: 5px;
     margin: 10px;
     margin-top: 450px;
     margin-left: 40;
     margin-right: 40;
+    
 }
 .news_1 h1{
     padding-left: auto;
@@ -73,7 +74,12 @@ nav {
 .news_1 p{
     padding-top: 10px;
     padding-left: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.news_1 p a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
 }
  .images{
     padding-left:20px;
@@ -95,6 +101,7 @@ nav {
 .Links p a{
     text-decoration: none;
     color: white;
+
 }
 
 .Links p a:hover{
@@ -108,6 +115,8 @@ nav {
 
 .Social i{
     font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
     
 }
 
