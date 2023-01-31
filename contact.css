@@ -73,56 +73,13 @@ color: white;
 
 
 .main-image {
-  background: url("./contact-background-resized.png");
+  background: url("contact-background-resized.png");
   height: 450px;
   width: 100%;  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-}
-
-@media only screen and (max-width: 1250px) {
-  .main-image {
-    background: url("./contact-background-resized.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 100%;
-  }
-}
-
-/* For slightly bigger screens */
-@media only screen and (max-width: 1000px) {
-  .main-image {
-    background: url("./contact-background-resized.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-  }
-}
-
-/* For tablets and smaller devices */
-@media only screen and (max-width: 710px) {
-  .main-image {
-    background: url("./contact-background-resized.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 100%;
-  }
-}
-
-/* For mobile phones */
-@media only screen and (max-width: 350px) {
-  .main-image {
-    background: url("./contact-background-resized.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 100%;
-  }
 }
 
 .background-card {
