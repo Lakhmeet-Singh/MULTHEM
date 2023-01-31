@@ -161,6 +161,8 @@ transform: translate(-50%, 280%);
 
 .Social i{
     font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
     
 }
 

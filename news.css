@@ -161,7 +161,8 @@ nav {
 
 .Social i{
     font-size: 22px;
-    
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .Social i:hover{

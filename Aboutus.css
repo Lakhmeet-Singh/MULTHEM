@@ -136,8 +136,8 @@ height: 100px
 }
 
 .am-image img{
-  width:200px; 
-  height:260px;
+  width:330px; 
+  height:300px;
   padding-bottom: 10px;
 }
 
@@ -173,6 +173,8 @@ height: 100px
 
 .Social i{
   font-size: 22px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .Social i:hover{
