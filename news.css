@@ -60,14 +60,21 @@ nav {
 /*News */
 .news_1 {
     background-color: #979390;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     margin-top: 500px;
 }
 .news_1 p{
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 10px;
     color: white;
+}
+.news_1 h3{
+    color: white;
+    padding-top:10px;
+}
+.new_1 img{
+    padding-right: 10px;
 }
 .news_2 {
     background-color:#04303e;

@@ -69,12 +69,12 @@ nav {
     
 }
 .news_1 h1{
-    padding-left: auto;
-    padding-right:auto;
+    text-align: center;
 }
 .news_1 p{
     padding-top: 10px;
     padding-left: 20px;
+    padding-right:20px;
     color: rgb(0, 0, 0);
 }
 .news_1 p a{
@@ -85,6 +85,9 @@ nav {
  .images{
     padding-left:20px;
 
+}
+.image1{
+    text-align: center;
 }
 /* Footer */
 
