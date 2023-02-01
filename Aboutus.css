@@ -171,6 +171,9 @@ nav{
 .Contact i{
   font-size: 18px;
 }
+.Social{
+  text-align: center;
+}
 
 .Social i{
   font-size: 22px;
@@ -192,7 +195,7 @@ nav{
   }
   #Heading .part2{
     padding-left: 10px;
-    padding-top: 50px;
+    padding-top: 70px;
   }
   
   .am-image{
@@ -220,7 +223,7 @@ nav{
   
   #Heading .part2{
     padding-left: 10px;
-    padding-top: 120px;
+    padding-top: 150px;
   }
   
   .am-image{
@@ -232,7 +235,7 @@ nav{
 
   .footer{
 
-    margin-top: 1500px;
+    margin-top: 1600px;
   }
   
   .Social{
