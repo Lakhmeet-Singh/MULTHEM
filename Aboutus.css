@@ -198,9 +198,15 @@ nav{
   .am-image{
   margin-left: 0px;
   }
+
   .am-image img{
     padding-top: 50px;
   }
+
+  .am-image h5{
+    padding-left: 60px;
+  }
+
   .footer{
 
     margin-top: 1200px;
@@ -214,7 +220,7 @@ nav{
   
   #Heading .part2{
     padding-left: 10px;
-    padding-top: 70px;
+    padding-top: 120px;
   }
   
   .am-image{
@@ -223,9 +229,10 @@ nav{
   .am-image img{
     padding-top: 50px;
   }
+
   .footer{
 
-    margin-top: 1300px;
+    margin-top: 1500px;
   }
   
   .Social{
