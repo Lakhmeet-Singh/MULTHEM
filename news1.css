@@ -70,11 +70,17 @@ nav {
 }
 .news_1 h1{
     text-align: center;
+    padding-bottom: 10px;
+}
+.news_1 h6{
+    text-align: center;
+    padding-bottom: 10px;
 }
 .news_1 p{
     padding-top: 10px;
     padding-left: 20px;
     padding-right:20px;
+    padding-bottom: 10px;
     color: rgb(0, 0, 0);
 }
 .news_1 p a{
@@ -86,8 +92,9 @@ nav {
     padding-left:20px;
 
 }
-.image1{
+.pic1{
     text-align: center;
+    padding-bottom: 10px;
 }
 /* Footer */
 
