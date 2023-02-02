@@ -32,6 +32,8 @@ nav{
     text-align: right;
 }
 
+/* header */
+
 .header-row {
     height: 450px;
     width: 100%;
@@ -250,7 +252,7 @@ nav{
         top: 120%;
     }
     .participants1{
-        top: 250%;
+        top: 260%;
     }
     
      .participants2{
