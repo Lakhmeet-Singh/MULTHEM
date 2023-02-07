@@ -73,7 +73,7 @@ nav {
     padding-bottom: 10px;
 }
 .news_1 h6{
-    text-align: left;
+    text-align: center;
     padding-bottom: 10px;
     padding-right:30px;
 }
@@ -92,18 +92,23 @@ nav {
  .images{
     padding-left:30px;
     padding-bottom: 10px;
+    text-align: center;
 
 }
 .pic1{
     text-align: center;
     padding-bottom: 10px;
 }
+.h6, h6{
+    text-align: center;
+}
+
 /* Footer */
 
 
 .footer{
     width: 100%;
-    height: 100%;
+    height: 50%;
     margin-top: auto;
     background-color: #005f70;
 }
