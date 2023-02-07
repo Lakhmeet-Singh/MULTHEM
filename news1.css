@@ -28,9 +28,9 @@ nav {
     color: #0990A7;
 }
 
-.collapse-text a {
-    padding-right: 10px;
-    text-align: right;
+.collapse-text a{
+  padding-right: 10px;
+  text-align: right;
 }
 
 /* header */
@@ -58,50 +58,81 @@ nav {
 
 }
  
-/* News content */
-.news_1{
-    background-color: #ffffff;
-    padding: 5px;
-    margin: 10px;
-    margin-top: 450px;
-    margin-left: 40;
-    margin-right: 40;
-    
+.news_1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 20px;
+  margin-top: 30%;
 }
-.news_1 h1{
-    text-align: center;
-    padding-bottom: 10px;
-}
-.news_1 h6{
-    text-align: center;
-    padding-bottom: 10px;
-    padding-right:30px;
-}
-.news_1 p{
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right:30px;
-    padding-bottom: 10px;
-    color: rgb(0, 0, 0);
-}
-.news_1 p a{
-    color: #000000;
-    font-weight: bold;
-    text-decoration: underline;
-}
- .images{
-    padding-left:30px;
-    padding-bottom: 10px;
-    text-align: center;
 
+.news_title {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
 }
-.pic1{
-    text-align: center;
-    padding-bottom: 10px;
+
+.news_img img{
+  width: 75%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.h6, h6{
-    text-align: center;
+
+.news_img img {
+  max-width: 90%;
+  height: auto;
 }
+
+.news_text {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.news_text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.news_text li {
+  margin-bottom: 10px;
+}
+
+.news_text a {
+  color: black;
+}
+
+.news_info {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.news_img_grid {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.news_img_grid img {
+  max-width: 100%;
+  height: auto;;
+}
+
+.news_date {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+
 
 /* Footer */
 
@@ -130,6 +161,9 @@ nav {
     font-size: 18px;
     
 }
+.Social{
+  text-align:center;
+}
 
 .Social i{
     font-size: 22px;
@@ -144,4 +178,128 @@ nav {
 
 .footer-image img{
    padding-left: 30px;
+}
+
+/* Media Queries */
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 992px) {
+  #Header .news h1 {
+    font-size: 55px;
+  }
+  .news_1{
+    margin-top: 40%;
+  }
+  .news_title {
+    font-size: 36px;
+  }
+  .news_img img {
+    width: 75%;
+  }
+  .news_text {
+    font-size: 18px;
+  }
+  .news_img_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #Header .news h1 {
+    font-size: 45px;
+  }
+  .news_1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 20px;
+    margin-top: 50%;
+    }
+    
+    .news_title {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0;
+    }
+    
+    .news_img img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .news_img img {
+    max-width: 100%;
+    height: auto;
+    }
+  .news_text {
+    font-size: 16px;
+  }
+  .news_img_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #Header .news h1 {
+    font-size: 35px;
+  }
+  .news_1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 20px;
+    margin-top: 70%;
+    }
+    
+    .news_title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    }
+    
+    .news_img img {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .news_img img {
+    max-width: 90%;
+    height: auto;
+    }
+  .news_text {
+    font-size: 14px;
+  }
+  .news_img_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width: 575px) {
+  #Header .news h1 {
+    font-size: 25px;
+  }
+  .news_1{
+    margin-top: 100%;
+  }
+  .news_title {
+    font-size: 20px;
+  }
+  .news_img img {
+    width: 100%;
+  }
+  .news_text {
+    font-size: 12px;
+  }
+  .news_img_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
