@@ -152,7 +152,7 @@ nav{
 }
 
 .participants1{
-    top: 175%;
+    top: 180%;
 }
 
 .participants2{
@@ -236,16 +236,16 @@ nav{
         top: 140%;
     }
     .participants1 {
-        top:290%;
+        top:280%;
         left: 52%;
     }
     .participants2 {
-        top: 127%;
-        left: 52%;
+        top: 135%;
+        left: 54%;
     }
     .participants3 {
         top: 140%;
-        left: 52%;
+        left: 54%;
     }
     .participants2 img, 
     .participants3 img,
