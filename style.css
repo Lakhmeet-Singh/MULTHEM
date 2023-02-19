@@ -86,23 +86,23 @@ color: white;
 
 /* Heading */
 
-
 #Heading .text-center{
-min-height: 200px;
+min-height: 180px;
 min-width: 100%;
 position: relative;
 left: 50%;
 transform: translate(-50%, 280%);
 }
 
-#Heading .text-center h5{
-    color: #0990A7;
-    font-weight: bold;
-}
-
 #Heading .text-center h3{
     font-size: 35px;
     font-weight: bold;
+    color: #005f70;
+}
+
+#Heading .text-center p{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -153,6 +153,12 @@ transform: translate(-50%, 280%);
     color: #0990A7;
 }
 
+.Contact a{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+  }
+  
 .Contact i{
     font-size: 18px;
     color: white;
@@ -176,7 +182,7 @@ transform: translate(-50%, 280%);
 }
 
 .footer-image img{
-   padding-left: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
@@ -186,6 +192,12 @@ transform: translate(-50%, 280%);
     }
     #Header .text-center h1{
         font-size: 25px;
+    }
+    #Heading .text-center{
+        max-height: 80px;
+    }
+    .card{
+        top: 650px;
     }
     .card-title{
         font-size: 20px;
@@ -202,19 +214,28 @@ transform: translate(-50%, 280%);
     #Header .text-center h1{
         font-size: 30px;
     }
-    #Heading .text-center h5{
-        font-size: 18px;
+    #Heading .text-center{
+        max-height: 50px;
     }
-    
     #Heading .text-center h3{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
+    }
+    #Heading .text-center p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .card{
+        top: 750px;
     }
     .card-title{
         font-size: 18px;
     }
     .card-text{
         font-size: 14px;
+    }
+    .footer{
+        margin-top: 800px;
     }
     .Social{
         text-align:left;

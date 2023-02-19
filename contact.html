@@ -41,33 +41,45 @@
 
 
 <!-- CONTACT FORM -->
-
-      <div class="container">
-        <h1 class="contact-us__title">CONTACT FORM</h1>
-         <hr/>
-         <p class="contact-us__description">
-           Please complete the following form to get in touch with us.
-        </p>
+<form id="contact-form" method="post">
+  <div class="background">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12">
+          <div class="contact-us_container">
+            <h1 class="contact-us__title">CONTACT FORM</h1>
+            <hr>
+            <p class="contact-us__description">
+              Please complete the following form to get in touch with us.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-12">
+          <section class="main-section">
+            <article class="submittion-card">
+              <form id="contact-form">
+                <div class="first-input__items">
+                  <input class="input__item" type="text" name="firstName" placeholder="First Name" />
+                  <input class="input__item" type="text" name="lastName" placeholder="Last Name" />
+                </div>
+                <div class="second-input__items">
+                  <input class="input__item" type="text" name="email" placeholder="Email Address" />
+                  <input class="input__item" type="text" name="subject" placeholder="Subject" />
+                </div>
+                <div class="message-box__items">
+                  <textarea class="input__item" name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="button-items">
+                  <button class="submit-btn btn" type="submit">Submit</button>
+                </div>
+              </form>
+            </article>
+          </section>
+        </div>
       </div>
-
-      <section class="main-section">
-        <article class="submittion-card">
-          <div class="first-input__items">
-            <input class="input__item" type="text" placeholder="First Name" />
-            <input class="input__item" type="text" placeholder="Last Name" />
-          </div>
-          <div class="second-input__items">
-            <input class="input__item" type="text" placeholder="Email Address" />
-            <input class="input__item" type="text" placeholder="SUBJECT" />
-          </div>
-          <div class="message-box__items">
-            <input class="input__item" type="text" placeholder="MESSAGE" />
-          </div>
-          <div class="button-items">
-            <button class="submit-btn">SUBMIT</button>
-          </div>
-        </article>
-      </section>
+    </div>
+  </div>
+</form>
 
 <!-- FOOTER -->
 
@@ -84,16 +96,22 @@
 			<div class="col-md-3 col-lg-1 mx-auto mt-3 mb-4 Links text-left ">
 				<h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
         <p>
-          <a href="index.html"> Home</a>
+          <a href="index.html">Home</a>
         </p>
         <p>
-          <a href="Aboutus.html"> About us</a>
+          <a href="Aboutus.html">About us</a>
         </p>
         <p>
-          <a href="partners.html"> Partners</a>
+          <a href="partners.html">Partners</a>
         </p>
         <p>
-          <a href="news.html"> News</a>
+          <a href="resources.html">Resources</a>
+        </p>
+        <p>
+          <a href="report.html">Reports</a>
+        </p>
+        <p>
+          <a href="news.html">News</a>
         </p>
         <p>
           <a href="contact.html"> Contact us</a>
@@ -103,7 +121,8 @@
       <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left Contact">
 				<h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
 				<p>
-					<i class="bi bi-geo-alt-fill"></i>  Linares, Jaén, Spain
+					<i class="bi bi-geo-alt-fill"></i>
+          Centro Tecnológico Metalmecánco y del Transporte, Parque Empresarial Santana. Avda. Primero de Mayo, s/n, 23700 Linares, Jaén, España.
 				<p>
           <i class="bi bi-envelope-fill"></i>
           <a href="mailto:info@multhem.eu">info@multhem.eu</a>
@@ -113,29 +132,65 @@
       <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 Social">
 				<h5 class="text-uppercase mb-4 font-weight-bold"> Social Networks</h5>
           <p>
-            <i class="bi bi-twitter"></i>
-          </p>
-          <p>
-            <i class="bi bi-facebook"></i>
-          </p>
-          <p>
-            <i class="bi bi-instagram"></i>
-          </p>
-          <p>
             <a href="https://www.linkedin.com/company/multhem/" target="blank" title="linkedin">
               <i class="bi bi-linkedin"></i></a>
+          </p>
+          <p>
+            <i class="bi bi-twitter"></i>
           </p>
 			</div>
 		</div>
   </div>
 
-    <div class="text-center p-4 footer-image" style="background-color: #014d5b;">
-      <img src="Multhem_Logo_1-01.jpg"style="width: 130px;" alt="Logo"></img>
-      <img src="eu_flag.jpg"style="width: 120px;" alt="Eu Logo"></img>
-    </div>
+  <div class="text-center p-4 footer-image" style="background-color: #014d5b;">
+    <img src="eu_flag.jpg"style="width: 120px; height: auto;" alt="Eu Logo"></img>
+    <p style="color: white; margin: 20px;">
+      This project has received funding from the European Union’s Horizon Europe Research & Innovation programme
+      <br> 2021 -2027 under grant agreement number:101091495
+    </p>
+  </div>
+  
     
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<form id="contact-form" action="/send_email" method="post">
+  <input type="text" name="firstName" placeholder="First Name" required>
+  <input type="text" name="lastName" placeholder="Last Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="text" name="subject" placeholder="Subject" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  document.querySelector('#contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    sendForm();
+  });
+
+  function sendForm() {
+    var firstName = document.querySelector('#contact-form input[name="firstName"]').value;
+    var lastName = document.querySelector('#contact-form input[name="lastName"]').value;
+    var email = document.querySelector('#contact-form input[name="email"]').value;
+    var subject = document.querySelector('#contact-form input[name="subject"]').value;
+    var message = document.querySelector('#contact-form textarea[name="message"]').value;
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/send_email');
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        alert('Your message has been sent!');
+      } else {
+        alert('An error occurred while sending your message.');
+      }
+    };
+    xhr.send(JSON.stringify({ firstName, lastName, email, subject, message, recipientEmail: 'lakhmeetsingh13.ls@gmail.com' }));
+  }
+</script>
+
+

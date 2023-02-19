@@ -83,7 +83,6 @@ nav{
 .section{
     width: 100%;
     position: absolute;
-    top: 120%; 
     left: 51%;
     transform: translate(-50%, -50%);
 }
@@ -163,7 +162,7 @@ nav{
 }
 
 .participants3{
-    top: 165%;
+    top: 185%;
     left: 52%;
 }
 
@@ -191,6 +190,12 @@ nav{
     color: #0990A7;
 }
 
+.Contact a{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+  }
+
 .Contact i{
     font-size: 18px;
 }
@@ -208,11 +213,12 @@ nav{
     color: #0990A7;
 }
 .footer-image{
+    margin-top: 17%;
     background-color: #014d5b;
     text-align: center;
 }
 .footer-image img{
-    padding-left: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
  
  /* Mobile */
@@ -233,14 +239,14 @@ nav{
         font-size: 14px;
     }
     .section {
-        top: 140%;
+        top: 120%;
     }
     .participants1 {
         top:280%;
         left: 52%;
     }
     .participants2 {
-        top: 135%;
+        top: 130%;
         left: 54%;
     }
     .participants3 {
@@ -253,10 +259,13 @@ nav{
         padding-top: 50px;
     }
     .footer {
-        margin-top: 6400px;
+        margin-top: 6000px;
     }
     .Social{
         text-align:left;
+    }
+    .footer-image{
+        margin-top: 135%;
     }
 }
 
@@ -269,10 +278,13 @@ nav{
         font-size: 45px;
     }
     .section {
-        top: 130%;
+        top: 100%;
     }
     .participants1 {
         top: 260%;
+    }
+    .participants1 h2{
+        top: 20%;
     }
     .participants2 {
         top: 135%;
@@ -290,9 +302,12 @@ nav{
     .footer {
         margin-top: 4500px;
     }
+    .footer-image{
+        margin-top: 33%;
+    }
 }
 
-/* Laptop */
+/* Laptop / Tablet */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-row {
         height: 450px;
@@ -301,10 +316,13 @@ nav{
         font-size: 50px;
     }
     .section {
-        top: 140%;
+        top: 120%;
     }
     .participants1 {
         top: 250%;
+    }
+    .participants1 h2{
+        top: 20%;
     }
     .participants2 {
         top: 135%;
@@ -320,11 +338,14 @@ nav{
         padding-top: 50px;
     }
     .footer {
-        margin-top: 3900px;
+        margin-top: 4700px;
+    }
+    .footer-image{
+        margin-top: 30%;
     }
 }
 
-/* Desktop
+/* Desktop / Laptop */
 @media only screen and (min-width: 1200px) {
     .header-row {
         height: 450px;
@@ -338,6 +359,9 @@ nav{
     .participants1 {
         top: 175%;
     }
+    .participants1 h2{
+        top: 20%;
+    }
     .participants2 {
         top: 140%;
         left: 52%;
@@ -349,4 +373,7 @@ nav{
     .footer {
         margin-top: 3400px;
     }
-} */
+    .footer-image{
+        margin-top: 17%;
+    }
+}
