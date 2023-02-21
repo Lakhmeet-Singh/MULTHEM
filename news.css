@@ -162,9 +162,9 @@ color: #0990A7;
     color: #0990A7;
 }
 
-.footer-image img{
+/* .footer-image img{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
-}
+} */
 
 
 @media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
