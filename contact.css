@@ -51,7 +51,7 @@ color: #0990A7;
   font-weight: bold;
   color: #005f70;
 }
-
+ 
 .contact-us__description {
   margin-top: 10px;
 }
@@ -78,6 +78,7 @@ color: #0990A7;
 .input__item {
   background: #005f70;
   border-style: none;
+  color: white;
   margin: 1.5rem;
   width: auto;
   height: 50px;
@@ -133,74 +134,71 @@ input:focus {
 
 .input__item::-webkit-input-placeholder { /* WebKit browsers */
   color: white;
+  opacity: 0.5;
 }
 
 .input__item:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: white;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .input__item::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: white;
-  opacity: 1;
+  opacity: 0.5;;
 }
 
 .input__item:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: white;
+  opacity: 0.5;
 }
 
 
 /* Footer */
 
-.footer{
+.footer {
   width: 100%;
-  height: 50%;
-  margin-top: 200px;
+  height: 100%;
+  margin-top: 100px;
   background-color: #005f70;
 }
-.footer-container{
+.container {
   color: white;
-  background-color: #005f70;
 }
 
-.Links p a{
+.Links p a {
   text-decoration: none;
   color: white;
 }
 
-.Links p a:hover{
-  color: #0990A7;
+.Links p a:hover {
+  color: #0990a7;
 }
 
-.Contact i{
-  font-size: 18px;
-  
-}
-
-.Contact a{
+.Contact a {
   text-decoration: underline;
   color: white;
   cursor: pointer;
 }
 
-.Social{
-  text-align:center;
+.Contact i {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
 }
 
-.Social i{
+.Social {
+  text-align: center;
+}
+
+.Social i {
   font-size: 22px;
   text-decoration: none;
   color: #ffffff;
 }
 
-.Social i:hover{
-  color: #0990A7;
+.Social i:hover {
+  color: #0990a7;
 }
-
-/* .footer-image img{
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-} */
-
 
 /* Media Queries */
 
@@ -213,6 +211,8 @@ input:focus {
     font-size: 40px;
   }
   .input__item {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 40px;
   }
@@ -233,12 +233,19 @@ input:focus {
   .contact-us__title {
     font-size: 30px;
   }
+  .first-input__items,
+  .second-input__items,
+  .message-box__items {
+    flex-direction: column;
+    align-items: center;
+  }
   .input__item {
-    width: 100%;
-    height: 40px;
+    width: 90%;
+    margin: 1rem 0;
   }
   .message-box__items .input__item {
-    height: 100px;
+    width: 90%;
+    height: 120px;
   }
   .submit-btn {
     width: 100%;

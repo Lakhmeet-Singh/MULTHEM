@@ -41,7 +41,7 @@
 
 
 <!-- CONTACT FORM -->
-<form id="contact-form" method="post">
+<form action="https://formsubmit.co/info@multhem.eu" method="POST">
   <div class="background">
     <div class="container">
       <div class="row">
@@ -58,16 +58,17 @@
           <section class="main-section">
             <article class="submittion-card">
               <form id="contact-form">
+                <input type="hidden" name="_subject" id="_subject" value="New submission">
                 <div class="first-input__items">
-                  <input class="input__item" type="text" name="firstName" placeholder="First Name" />
-                  <input class="input__item" type="text" name="lastName" placeholder="Last Name" />
+                  <input class="input__item" type="text" name="First-Name" placeholder="First Name" required />
+                  <input class="input__item" type="text" name="Last-Name" placeholder="Last Name" required/>
                 </div>
                 <div class="second-input__items">
-                  <input class="input__item" type="text" name="email" placeholder="Email Address" />
-                  <input class="input__item" type="text" name="subject" placeholder="Subject" />
+                  <input class="input__item" type="email" name="Email" placeholder="Email Address" required/>
+                  <input class="input__item" type="text" name="Subject" id="subject" placeholder="Subject" required/>
                 </div>
                 <div class="message-box__items">
-                  <textarea class="input__item" name="message" placeholder="Message"></textarea>
+                  <textarea class="input__item" name="Message" placeholder="Write your message here..." required></textarea>
                 </div>
                 <div class="button-items">
                   <button class="submit-btn btn" type="submit">Submit</button>
@@ -81,108 +82,91 @@
   </div>
 </form>
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
 
-<footer class="footer">
-	<div class="footer-container">
-		<div class="row mt-4 ">
-			<div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left">
-				<h5 class="text-uppercase mb-4 font-weight-bold">MULTHEM</h5>
-				<p> MULTHEM's aim is to develop reliable, cost-effective AM CFC components 
-          with enhanced thermal conductivity for lighter, stronger battery and motor housings.
-        </p>
-			</div>
-
-			<div class="col-md-3 col-lg-1 mx-auto mt-3 mb-4 Links text-left ">
-				<h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
-        <p>
-          <a href="index.html">Home</a>
-        </p>
-        <p>
-          <a href="Aboutus.html">About us</a>
-        </p>
-        <p>
-          <a href="partners.html">Partners</a>
-        </p>
-        <p>
-          <a href="resources.html">Resources</a>
-        </p>
-        <p>
-          <a href="report.html">Reports</a>
-        </p>
-        <p>
-          <a href="news.html">News</a>
-        </p>
-        <p>
-          <a href="contact.html"> Contact us</a>
-        </p>
-			</div>
-
-      <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left Contact">
-				<h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
-				<p>
-					<i class="bi bi-geo-alt-fill"></i>
-          Centro Tecnológico Metalmecánco y del Transporte, Parque Empresarial Santana. Avda. Primero de Mayo, s/n, 23700 Linares, Jaén, España.
-				<p>
-          <i class="bi bi-envelope-fill"></i>
-          <a href="mailto:info@multhem.eu">info@multhem.eu</a>
-				</p>
-			</div>
-
-      <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 Social">
-				<h5 class="text-uppercase mb-4 font-weight-bold"> Social Networks</h5>
-          <p>
-            <a href="https://www.linkedin.com/company/multhem/" target="blank" title="linkedin">
-              <i class="bi bi-linkedin"></i></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="row mt-4 ">
+        <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left">
+          <h5 class="text-uppercase mb-4 font-weight-bold">MULTHEM</h5>
+          <p> MULTHEM's aim is to develop reliable, cost-effective AM CFC components 
+              with enhanced thermal conductivity for lighter, stronger battery and motor housings.
           </p>
-          <p>
-            <i class="bi bi-twitter"></i>
-          </p>
-			</div>
-		</div>
-  </div>
-
-  <div class="text-center p-4 footer-image" style="background-color: #014d5b;">
-    <img src="eu_flag.jpg"style="width: 120px; height: auto;" alt="Eu Logo"></img>
-    <p style="color: white; margin: 20px;">
-      This project has received funding from the European Union’s Horizon Europe Research & Innovation programme
-      <br> 2021 -2027 under grant agreement number:101091495
-    </p>
-  </div>
+        </div>
   
+        <div class="col-md-3 col-lg-1 mx-auto mt-3 mb-4 Links text-left ">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
+          <p>
+            <a href="index.html">Home</a>
+          </p>
+          <p>
+            <a href="Aboutus.html">About us</a>
+          </p>
+          <p>
+            <a href="partners.html">Partners</a>
+          </p>
+          <p>
+            <a href="resources.html">Resources</a>
+          </p>
+          <p>
+            <a href="report.html">Reports</a>
+          </p>
+          <p>
+            <a href="news.html">News</a>
+          </p>
+          <p>
+            <a href="contact.html"> Contact us</a>
+          </p>
+        </div>
+  
+        <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left Contact">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>
+            Centro Tecnológico Metalmecánco y del Transporte, Parque Empresarial Santana. Avda. Primero de Mayo, s/n, 23700 Linares, Jaén, España.
+          </p>
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:info@multhem.eu">info@multhem.eu</a>
+          </p>
+        </div>
+  
+        <div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 Social">
+          <h5 class="text-uppercase mb-4 font-weight-bold"> Social Networks</h5>
+          <p>
+            <a href= "https://www.linkedin.com/company/multhem/" target="blank" title="Linkedin">
+            <i class="bi bi-linkedin"></i></a>
+          </p>
+          <p>
+            <a href= "twitter.html" target="blank" title="Twitter">
+            <i class="bi bi-twitter"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center p-4 footer-image" style="background-color: #014d5b;">
+      <img src="eu_flag.jpg"style="width: 120px; height: auto;" alt="Eu Logo"></img>
+      <p style="color: white; margin: 20px;">
+        This project has received funding from the European Union’s Horizon Europe Research & Innovation programme
+        <br> 2021 -2027 under grant agreement number:101091495
+      </p>
+    </div>
     
-</footer>
+      
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
-</html>
-
 
 <script>
-  document.querySelector('#contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    sendForm();
+  const subjectInput = document.getElementById("subject");
+  const hiddenInput = document.getElementById("_subject");
+
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    hiddenInput.value = "New submission " + subjectInput.value;
   });
 
-  function sendForm() {
-    var firstName = document.querySelector('#contact-form input[name="firstName"]').value;
-    var lastName = document.querySelector('#contact-form input[name="lastName"]').value;
-    var email = document.querySelector('#contact-form input[name="email"]').value;
-    var subject = document.querySelector('#contact-form input[name="subject"]').value;
-    var message = document.querySelector('#contact-form textarea[name="message"]').value;
-
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/send_email');
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.onload = function() {
-      if (xhr.status === 200) {
-        alert('Your message has been sent!');
-      } else {
-        alert('An error occurred while sending your message.');
-      }
-    };
-    xhr.send(JSON.stringify({ firstName, lastName, email, subject, message, recipientEmail: 'lakhmeetsingh13.ls@gmail.com' }));
-  }
 </script>
 
-
+</body>
+</html>

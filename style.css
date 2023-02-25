@@ -93,12 +93,6 @@ nav {
   transform: translate(-50%, 280%);
 }
 
-#Heading .text-center h3 {
-  font-size: 35px;
-  font-weight: bold;
-  color: #005f70;
-}
-
 #Heading .text-center p {
   margin-left: 100px;
   margin-right: 100px;
@@ -173,10 +167,6 @@ nav {
   color: #0990a7;
 }
 
-/* .footer-image img {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-} */
-
 @media (min-width: 768px) and (max-width: 1024px) {
   /* tablet devices */
 
@@ -209,13 +199,12 @@ nav {
   #Heading .text-center {
     max-height: 50px;
   }
-  #Heading .text-center h3 {
-    font-size: 25px;
-    font-weight: bold;
-  }
   #Heading .text-center p {
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .card-boxes{
+    padding-top: 50px;
   }
   .card {
     top: 750px;
