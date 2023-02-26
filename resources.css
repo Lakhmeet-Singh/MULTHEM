@@ -55,7 +55,7 @@ html body {
 
 .container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 500px;
 }
 
 .header-note {
@@ -80,6 +80,40 @@ p {
 .note-para {
   color: black !important;
 }
+.header-row{
+  height:450px;
+  width: 100%;
+  background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(resources.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+#Header .text-center {
+  width: 100%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  #Header .text-center h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    }
+  
+    #Header .text-center hr{
+      width: 15%;
+      height: 5px;
+      border: 0 none;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color:white;
+      color: white;
+      }
 
 /* Footer */
 
