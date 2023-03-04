@@ -101,7 +101,9 @@ nav{
     font-size: 16px;
   }
 
-  #Heading .part2{
+  /* part2 */
+
+  .part2 {
     height: 200px;
     min-width: 80%;
     padding: 20px;
@@ -110,58 +112,43 @@ nav{
     transform: translate(-50%, 280%);
     margin: 10px;
   }
-    
-  #Heading .part2 h3{
-    font-size: 25px;
-    font-weight: bold;
+  
+  .multhem-logos, .multhem-countries {
+    height: 90%;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
   }
   
-  #Heading .part2 hr{
-    height: 10px;
-    width: auto;
-    color: black;
+  .multhem-logos {
+    width: 60%;
   }
-
-  .am-image{
-  position: relative;
-  display: block;
-  margin-left: 60px;
+  
+  .multhem-countries {
+    width: 40%;
   }
-
-  .am-image img{
-    width:400px; 
-    height:300px;
-    padding-bottom: 10px;
-  }
-
-  .am-image h5{
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-  }
+  
   .multhem-countries{
     padding-top: 50px;
   }
+
   .about-paragraph{
     padding-top: 50px;
   }
-  .multhem-pert{
-    width: 50%;
-    text-align: center;
-    padding-top: 50px;
-  }
-  .multhem-methodology{
-    width: 50%;
-    text-align: center;
-    padding-top: 50px;
-  }
-/* Footer */
 
+  .multhem-pert,
+  .multhem-methodology {
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  
+/* Footer */
 
 .footer{
   width: 100%;
   height: 100%;
-  margin-top: 3400px;
+  margin-top: 3700px;
   background-color: #005f70;
 }
 .container{
@@ -201,9 +188,6 @@ nav{
   color: #0990A7;
 }
 
-/* .footer-image img{
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
-} */
 
 @media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
   #Header .text-center h1{
@@ -213,45 +197,89 @@ nav{
     padding-left: 10px;
     padding-top: 90px;
   }
+  .part2 {
+    min-width: 80%;
+    padding: 20px;
+    transform: translate(-50%, 280%);
+  }
+  .bottom-image{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .multhem-logos {
+    width: 60%;
+  }
+
+  .multhem-countries {
+    width: 40%;
+  }
+
+  .multhem-countries {
+    padding-top: 50px;
+  }
+
+  .about-paragraph {
+    padding-top: 50px;
+  }
+
+  .multhem-pert,
+  .multhem-methodology {
+    width: 100%;
+    padding-top: 50px;
+  }
   
-  .am-image{
-  margin-left: 0px;
-  }
-
-  .am-image h5{
-    padding-left: 60px;
-  }
-
   .footer{
-
-    margin-top: 1200px;
+    margin-top: 2700px;
   }
   
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #Header .text-center h1{
       font-size: 30px;
   }
   #Heading .part1{
-    margin-left: 20px;
+    margin: 5px;
   }
 
-  #Heading .part2{
-    padding-left: 10px;
-    padding-top: 190px;
-  }
-  
-  .am-image{
-  margin-left: 0px;
+  .part2 {
+    min-width: 100%;
+    padding: 10px;
+    margin: 5px;
   }
 
-  .am-image img{
+  .top-image, .bottom-image{
+    flex-direction: column;
+  }
+
+  .multhem-logos{
+    height: auto;
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .multhem-countries{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .multhem-countries{
+    padding-top: 50px;
+  }
+
+  .multhem-pert,.multhem-methodology {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .multhem-methodology {
     padding-top: 50px;
   }
 
   .footer{
-
-    margin-top: 1400px;
+    margin-top: 2900px;
   }
   
   .Social{
