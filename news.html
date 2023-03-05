@@ -1,74 +1,96 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title>Multhem</title>
     <link rel="stylesheet" href="news.css">
     <link rel="icon" type="image/x-icon" href="images/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
-
 <body>
-    <!-- HEADER AND NAVBAR -->
-    <section class="Navigation Bar">
-        <nav class="navbar navbar-expand-lg bg-dark navbar-light bg-transparent">
-            <div class="container-fluid">
-                <div class="logo">
-                    <a class="navbar-brand" href="index.html">
-                    <img src="Multhem_Logo_1_transbg.png" alt="Logo" style="width: 200px;"></a>
-                </div>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <div class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 collapse-text">
-                        <a class="nav-link" href="index.html">HOME</a>
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
-                        <a class="nav-link" href="partners.html">PARTNERS</a>
-                        <a class="nav-link" href="resources.html">RESOURCES</a>
-                        <a class="nav-link" href="report.html">PUBLISHED REPORTS</a>
-                        <a class="nav-link" href="news.html">NEWS</a>
-                        <a class="nav-link" href="contact.html">CONTACT US</a>
+        <!-- HEADER AND NAVBAR -->
+        <section class="Navigation Bar">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a class="navbar-brand" href="index.html">
+                        <img src="Multhem_Logo_1_transbg.png" alt="Logo" style="width: 200px;"></a>
+                    </div>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <div class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 collapse-text">
+                          <a class="nav-link" href="index.html">HOME</a>
+                          <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                          <a class="nav-link" href="partners.html">PARTNERS</a>
+                          <a class="nav-link" href="resources.html">RESOURCES</a>
+                          <a class="nav-link" href="report.html">PUBLISHED REPORTS</a>
+                          <a class="nav-link" href="news.html">NEWS</a>
+                          <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </section>
+            </nav>
+        </section>
 
-    <!-- HEADING -->
+         <!-- HEADING -->
+
     <section class="Header">
         <div id="Header" class="Header">
-            <div class="col news text-center">
-                <h1>NEWS</h1>
-                <hr>
+            <div class="news text-center">
+                <div class="col-lg-6 col-md-6 text">
+                    <h1>NEWS</h1>
+                </div>
             </div>
         </div>
-    </section>
+    </section> 
+        
 
-    <!--News-->
-
-    <div id="the_news" class="the_news">
-        <div class="news_1 ">
-            <img src="meeting 1.JPG" alt="news_1" style="width:240px;height:180px">
-            <h3>Kick-off meeting</h3>
-            <p>A Kick-off to the start of MULTHEM
-                The MULTHEM Kick-off Meeting took place at the TNO facilities (Brightlands Chemelot Campus, Geleen, The Netherlands) from 11th to 12th January 2023. 
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end button">
-                <a href="news1.html"><button class="btn btn-secondary me-md-2" type="button">Find out More</button></a>
-            </div>
-        </div>
+<!--News1 content-->
+    <div class="news_1">
+      <h1 class="news_title">Kick-off Meeting</h1>
+      <div class="news_img text-center">
+          <img src="news1.2.jpg" alt="news_1">
+      </div>
+      <div class="news_text">
+          <p>
+            Our consortium partners for the Horizon Europe project MULTHEM participated in the kick-off meeting at Sittard and Geleen in The 
+            Netherlands. The meeting was hosted by Brightlands Materials Center over two days on 12 and 13 January 2023. MULTHEM aims to develop 
+            polymer-Metal-based materials and lightweight structures with good thermal management using Additive Manufacturing (AM) and innovative 
+            joining technologies to achieve complex freeform geometries. The kick-off meeting was a great start to our 3 year project! Thanks to 
+            all our nine partners:
+          </p>
+          <ul>
+              <li><a href="https://cetemet.es/" target="_blank">Fundacion Centro Tecnologico Metalmecanica Y Del Transporte</a></li>
+              <li><a href="https://www.list.lu/" target="_blank">Luxembourg Institute Of Science And Technology</a></li>
+              <li><a href="https://www.ipk.fraunhofer.de/en.html" target="_blank">Fraunhofer Institute for Production Systems and Design Technology IPK</a></li>
+              <li><a href="https://www.brightlandsmaterialscenter.com/" target="_blank">Brightlands Materials Center</a></li>
+              <li><a href="https://en.air-electric.com/" target="_blank">SOLMATEK SOLUTIONS SL</a></li>
+              <li><a href="https://www.eirecomposites.com/" target="_blank">ÉireComposites Teoranta</a></li>
+              <li><a href="https://www.primaadditive.com/en" target="_blank">Prima Additive S.R.</a></li>
+              <li><a href="https://www.thalesgroup.com/en" target="_blank">Thales</a></li>
+              <li><a href="https://www.brunel.ac.uk/" target="_blank">Brunel University London</a></li>
+          </ul>
+          <p class="news_info">For more information view: <a href="https://cordis.europa.eu/project/id/101091495" target="_blank">Cordis Webpage</a></p>
+      </div>
+      <div class="news_img_grid justify-content-center align-items-center">
+          <img src="news1.1.jpg" alt="news_1">
+          <img src="news1.3.jpg" alt="news_1">
+          <img src="news1.4.jpg" alt="news_1">
+          <img class = "meeting" src="meeting 1.JPG" alt="news_1">
+      </div>
+      <h5 class="news_date">12-13th January 2023</h5>
     </div>
+
 
  <!-- FOOTER -->
 
- <footer class="footer">
+<footer class="footer">
 	<div class="container">
 		<div class="row mt-4 ">
 			<div class="col-md-3 col-lg-2 mx-auto mt-3 mb-4 text-left">
@@ -139,6 +161,8 @@
   
     
 </footer>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
