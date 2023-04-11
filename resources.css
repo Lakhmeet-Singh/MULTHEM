@@ -15,16 +15,22 @@ html body {
 .nav {
   margin-bottom: 0.3cm;
   background-color: white;
+  width: 100%;
 }
 
 .navbar-nav a {
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: #000000;
   padding-left: 50px;
 }
 
 .navbar-nav a:hover {
   color: #0990a7;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  border: 2px solid rgb(235, 235, 235) !important;
 }
 
 .collapse-text a {

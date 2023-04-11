@@ -28,6 +28,11 @@ nav{
 .navbar-nav a:hover{
   color: #0990A7;
 }
+
+.navbar-toggler {
+  background-color: white !important;
+  border: 2px solid rgb(235, 235, 235) !important;
+}
   
 .collapse-text a{
       padding-right: 10px;
@@ -82,6 +87,7 @@ nav{
   }
 
   .sub-heading {
+    padding-top: 50px;
     padding-bottom: 50px;
     font-weight: bold;
   }
@@ -115,10 +121,11 @@ nav{
     opacity: 0.75 !important;
   } 
 
-  hr{
-    opacity: 0.75 !important;
-  }
   /* Partner section */
+  .sub-heading-partner{
+    font-weight: bold;
+  }
+  
   .partners {
     margin-top: 50px;
     margin-bottom: 100px;
