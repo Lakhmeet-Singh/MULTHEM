@@ -27,6 +27,11 @@ nav{
 .navbar-nav a:hover{
   color: #0990A7;
 }
+
+.navbar-toggler {
+  background-color: white !important;
+  border: 2px solid rgb(235, 235, 235) !important;
+}
   
 .collapse-text a{
       padding-right: 10px;

@@ -28,10 +28,15 @@
   .navbar-nav a:hover{
     color: #0990A7;
   }
+
+  .navbar-toggler {
+    background-color: white !important;
+    border: 2px solid rgb(235, 235, 235) !important;
+  }
     
   .collapse-text a{
-        padding-right: 10px;
-        text-align: right;
+    padding-right: 10px;
+    text-align: right;
   }
 
 /* Header */
@@ -99,11 +104,18 @@ main {
     text-decoration: underline;
     color: black;
 }
+.text-content ul a:hover{
+  font-weight: bold;
+  color: #0990A7;
+}
 
 .news_info a {
-    text-decoration: underline;
-    color: black;
-    font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+.news_info a:hover{
+  color: #0990A7;
 }
 
 .grid-images {
