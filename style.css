@@ -28,15 +28,13 @@ nav {
 }
 
 .navbar-toggler {
-  background-color: white !important;
-  border: 2px solid rgb(235, 235, 235) !important;
+  background-image: url(images/menu.png);
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.8;
 }
-
-.navbar-toggler-icon{
-  color: #0990a7 !important;
-  background-image: var(--bs-navbar-toggler-icon-bg);
-}
-
 
 .collapse-text a {
   padding-right: 10px;
