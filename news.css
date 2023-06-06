@@ -43,47 +43,47 @@
     text-align: right;
   }
 
-/* Header */
-header {
-    height: 450px;
+  /* Header Section */
+  .header-section {
+      height: 450px;
+      width: 100%;
+      background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(images/news.png);  
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+  }
+  .title{
     width: 100%;
-    background-image: linear-gradient(rgba(3, 64, 80, 0.7), rgba(3, 64, 80, 0.7)), url(images/news.png);  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.header-content {
-    position: relative;
+    position:absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-section h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
     text-align: center;
-    color: white;
-}
+  }
+  .header-section hr {
+      width: 15%;
+      height: 5px;
+      border: 0 none;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color:white;
+      color: white;
+  }
 
-.header-content h1 {
-    font-size: 4rem;
-    margin-bottom: 5px;
-}
-
-.header-content hr {
-    width: 15%;
-    height: 5px !important;
-    border: 0 none;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color:white;
-    color: white;
-}
 
 /* Main content */
 main {
-    margin-top: 500px;
+    margin-top: 100px;
 }
-.title{
+.news-title{
     padding-bottom: 50px;
     text-align: center;
 }
@@ -138,6 +138,19 @@ main {
     margin-bottom: 50px;
 }
 
+.seperator{
+  width: calc(100% - 100px); 
+  height: 10px;
+  border: none;
+  margin: 0 50px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: black;
+  border-bottom: 2px solid black;
+  opacity: 0.75;
+}
+  
+
 /* Footer */
 .footer {
     position: absolute;
@@ -182,20 +195,27 @@ main {
     color: #0990A7;
   }
 
-/* @media (max-width: 576px) {
-    .header-content h1 {
-        font-size: 2rem;
+
+  @media (min-width: 768px) and (max-width: 1024px) { /* tablet devices */
+    .header-section h1{
+        font-size: 45px;
     }
-    .header-content p {
-        font-size: 1rem;
-    } */
-
-@media (max-width: 768px) {
-.header-content h1 {
-  font-size: 40px
-}
-
-.Social {
-  text-align: left;
-}
-}
+    
+  }
+  @media (max-width: 767px) {
+    .header-section h1{
+        font-size: 40px;
+    }
+    .text-section{
+        padding-left: 10px;
+    }
+  
+    .image-section img{
+      padding: 20px;
+    }
+    
+    .Social{
+        text-align:left;
+    }
+    
+  }
